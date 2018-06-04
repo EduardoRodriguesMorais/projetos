@@ -1,0 +1,22 @@
+.ico{
+    position: fixed ;
+    margin: 15px;
+}
+.imagem{
+    margin: 30px;
+}
+.superior{
+    height: 75px;
+    background-color: dimgrey;
+}
+.login{
+    margin: 20px;
+    top: 70px;
+    width: 300px;
+    right: 100px;
+
+}
+.inferior{
+    height: 50px;
+    background-color: dimgrey;
+}
