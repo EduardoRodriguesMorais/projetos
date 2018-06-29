@@ -1,0 +1,95 @@
+/* Template */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+
+hr{
+  border: 1px solid rgba(240, 191, 13, 0.43);
+}
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+body > .container {
+  padding: 80px 15px 0;
+}
+
+.footer > .container { 
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* Custom styles */
+.login{
+  border: solid 1px gray;
+  padding: 20px;
+}
+
+.form-group label {
+  font-style: bold;
+}
+
+.navbar-style {
+  background-color: #ffcc00;
+  height: 60px;
+  padding-bottom: 15px;
+}
+
+nav .nav-link {
+  color: #000;
+}
+.textoFooter {
+
+  margin-top: 20px;
+  font-size: small;
+  line-height: 200%;
+}
+/* Style DeashBoard */
+.dados{
+
+  margin-top: 20px; 
+  height: 110px;
+  background-color: rgba(211, 211, 211, 0.78);
+  border: 1px solid #ffcc00;
+}
+
+.opcoesUser{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.naveg{
+  border-radius: 3%;
+  border: 1px solid #ffcc00;
+  text-align: center;
+  margin-left: 25px; 
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+.naveg p{
+  margin-top: 15px;
+}
+
+
+.resumoD{
+  border-radius: 3%;
+  border: 1px solid #ffcc00;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+}
