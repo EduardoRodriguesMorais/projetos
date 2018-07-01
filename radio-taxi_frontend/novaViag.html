@@ -48,6 +48,7 @@
       </div>
     </nav>
     <!-- init -->
+
     <form style="margin-top: 80px;">
            
         <div class="container"style="margin-top: 10px;">
@@ -59,22 +60,22 @@
                     
                     <div class="form-group">
                         <label for="nome">Nome do Cliente:</label>
-                        <input class="form-control" type="text" id="nome" placeholder="Nome"/> 
+                        <input class="form-control" type="text" id="nome" placeholder="Nome" pattern="[A-Za-z]+" maxlength="40" required> 
                     </div>    
                     
                     <div class="form-group">
                         <label for="telefone">Telefone:</label>
-                        <input class="form-control" type="text" id="telef" placeholder="Telefone"/>
+                        <input class="form-control" type="text" id="telef" placeholder="Telefone" pattern="^\d{11}$" maxlength="2" required>
                     </div>  
                     
                     <div class="form-group">
                         <label for="localPartida">Local de Partida:</label>
-                        <input class="form-control" type="text" id="localPartida" placeholder="Partida"/>  
+                        <input class="form-control" type="text" id="localPartida" placeholder="Partida" maxlength="45" required>  
                     </div>    
                     
                     <div class="form-group">
                         <label for="localDestino">Local de Destino:</label>
-                        <input class="form-control" type="text" id="localDestino" placeholder="Destino"/>     
+                        <input class="form-control" type="text" id="localDestino" placeholder="Destino" maxlength="45" required>     
                     </div>    
                     
                     <div class="form-group">
