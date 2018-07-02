@@ -4,6 +4,9 @@
 hr{
   background-color: #ffcc00;
 }
+h5{
+  text-align: center;
+}
 .footer { 
   clear: both;
   text-align: center;
@@ -90,6 +93,4 @@ nav .nav-link {
   background-color: white;
 }
 
-imgUser{
-  
-}
+/* Stlye cooperados */
