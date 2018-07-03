@@ -7,6 +7,9 @@ hr{
 h5{
   text-align: center;
 }
+h6{
+  text-align: center;
+}
 .footer { 
   clear: both;
   text-align: center;
@@ -93,4 +96,9 @@ nav .nav-link {
   background-color: white;
 }
 
-/* Stlye cooperados */
+/* Stlye detalhesViagem */
+
+
+.dadosCliCoop b{
+  color: #ffcc00;
+}
