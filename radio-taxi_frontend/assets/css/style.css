@@ -102,3 +102,17 @@ nav .nav-link {
 .dadosCliCoop b{
   color: #ffcc00;
 }
+
+.botoesFluxo a{
+  font-size: small;
+  height: 60%;
+  width: 30%;
+  margin-left: 2%;
+  float: left
+}
+.fluxo p{
+  margin-top: 2%; 
+  float: left;
+  margin-left: 20%;
+  font-size: small;
+}
